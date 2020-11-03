@@ -105,18 +105,13 @@ public class DoublyLinkedList {
 	public static void main(String[] args) {
 		DoublyLinkedList list = new DoublyLinkedList();
 		list.addAtHead(1);
-		list.displayList();
 		list.addAtTail(3);
-		list.displayList();
 		list.addAtIndex(1, 2);
 		list.displayList();
-		System.out.println();
 		System.out.println(list.get(1));
-		System.out.println();
 		list.deleteAtIndex(1);
-		list.displayList();
-		System.out.println();
 		System.out.println(list.get(1));
+		list.displayList();
 
 	}
 }
