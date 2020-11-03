@@ -86,7 +86,6 @@ public class DoublyLinkedList {
 		if (prev != null) {
 			prev.next = next;
 		} else {
-			// modify head when deleting the first node.
 			head = next;
 		}
 		if (next != null) {
